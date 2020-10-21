@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="mojcss.css">
+    <style>
+        * {
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+            padding: 0px;
+            margin: 0px;
+        }
+    </style>
+</head>
+
+<body>
+    <table id="mainTable">
+        <tr style="text-align: center;">
+            <td id="ime">Ime</td>
+            <td id="prezime">Prezime</td>
+            <td id="jmbg">JMBG</td>
+        </tr>
+        <tr>
+            <td id="ime">Marko</td>
+            <td id="prezime">Marković</td>
+            <td id="jmbg">13059952231123</td>
+        </tr>
+        <tr id="drugiRed">
+            <td style="background-color: green;" id="ime">Darko</td>
+            <td style="background-color: green;" id="prezime">Petrović</td>
+            <td id="jmbg">22079952231123</td>
+        </tr>
+        <tr>
+            <td id="ime">Stefan </td>
+            <td id="prezime">Miličić</td>
+            <td id="jmbg">15119832231423</td>
+        </tr>
+    </table>
+    <br>
+    <form action="" method="POST">
+        <table class="tableForm">
+            <tr>
+                <td class="naslov">
+                    <label for="ime">Ime</label>
+                </td>
+                <td>
+                    <input type="text" name="ime">
+                </td>
+            </tr>
+            <tr>
+                <td class="naslov">
+                    <label style="text-align: right;" for="prezime">Prezime</label>
+                </td>
+                <td>
+                    <input type="text" name="prezime">
+                </td>
+            </tr>
+            <tr>
+                <td class="naslov">
+                    <label for="jmbg">JMBG</label>
+                </td>
+                <td>
+                    <input type="text" name="jmbg">
+                </td>
+            </tr>
+            <tr>
+                <td></td>
+                <td style="padding-bottom: 10px;">
+                    <input type="submit" value="Potvrdi">
+                </td>
+            </tr>
+        </table>
+    </form>
+
+</body>
+
+</html>

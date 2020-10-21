@@ -1,0 +1,39 @@
+#mainTable {
+    border-collapse: collapse
+}
+
+#mainTable td {
+    border: 2px solid #003a00;
+}
+
+#drugiRed {
+    background-color: green;
+    color: red;
+}
+
+#ime {
+    background-color: blue;
+}
+
+#prezime {
+    text-align: right;
+    background-color: yellow;
+}
+
+#jmbg {
+    text-align: left;
+    background-color: green;
+}
+
+.tableForm {
+    border: 2px solid green;
+    width: 500px;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+.naslov {
+    text-align: right;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
